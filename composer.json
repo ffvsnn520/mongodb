@@ -1,20 +1,30 @@
 {
   "name": "fanyulong/mongodb",
+  "description": "this is a example",
+  "keywords": ["Swoole"],
   "type": "library",
-  "description": "This is a example",
-  "homepage": "https://github.com/ffvsnn520/mongodb",
-  "keywords ":[ "log ", "logging ", "psr-3 " ],
   "license": "MIT",
   "authors": [
     {
+      "name": "XinHui.Long",
+      "email": "longxinhui.e@gmail.com"
     }
   ],
   "require": {
-    "php": ">=7.0.0"
+    "php": ">=5.4",
+    "ext-swoole": ">=1.1"
   },
   "autoload": {
-    "psr-0": {
-      "Monolog": "src"
+    "psr-4": {
+      "Swoole\\": "src"
+    },
+    "classmap": [],
+    "files": []
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
     }
   },
   "minimum-stability": "dev"
