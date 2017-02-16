@@ -11,7 +11,7 @@
     }
   ],
   "require": {
-    "ext-swoole": "1.8.8"
+    "ext-swoole": "~1.8.0"
   },
   "autoload": {
     "psr-4": {
