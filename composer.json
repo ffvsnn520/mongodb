@@ -3,6 +3,7 @@
     "description": "this ia s eexample",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "yearn",
