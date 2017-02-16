@@ -16,5 +16,6 @@
     "psr-0": {
       "Monolog": "src"
     }
-  }
+  },
+  "minimum-stability": "dev"
 }
