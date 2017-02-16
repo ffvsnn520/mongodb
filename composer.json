@@ -6,12 +6,11 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "XinHui.Long",
-      "email": "longxinhui.e@gmail.com"
+      "name": "a",
+      "email": "a@gmail.com"
     }
   ],
   "require": {
-    "php": ">=5.4",
     "ext-swoole": ">=1.1"
   },
   "autoload": {
